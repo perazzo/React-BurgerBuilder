@@ -4,6 +4,8 @@ import BurgerIngredient from './BurgerIngredients/BurgerIngredient';
 import classes from './Burger.module.css';
 
 const burger = (props) => {
+    
+
     // Object.keys => keys of the objects converted to an array
     // map => creates a new array with the results of a provided/created function
     let transformedIngredients = Object.keys(props.ingredients)
