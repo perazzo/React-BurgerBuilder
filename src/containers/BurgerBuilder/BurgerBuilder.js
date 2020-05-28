@@ -11,7 +11,7 @@ import Spinner from '../../components/UI/Spinner/Spinner';
 import withErrorHandle from '../../hoc/withErrorHandle/withErrorhandle';
 import * as action from '../../store/actions/index';
 
-class BurgerBuilder extends Component {
+export class BurgerBuilder extends Component {
     constructor(props) {
         super(props);
         this.state = {
